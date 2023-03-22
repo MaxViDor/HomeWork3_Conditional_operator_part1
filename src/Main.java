@@ -4,6 +4,7 @@ public class Main {
         task2 ();
         task3 ();
         task4 ();
+        task5 ();
 
     }
     public static void task1 () {
@@ -48,6 +49,17 @@ public class Main {
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить на работу");
         }
 
-
     }
+    public static void task5 () {
+        System.out.println("Задача 5");
+        byte age=4;
+        if (age < 5){
+            System.out.println("«Если возраст ребенка равен " + age + ", то ему нельзя кататься на аттракционе");
+        }else if (age >= 5 && age < 14){
+            System.out.println("Если возраст ребенка равен " + age + ", то ему можно кататься на аттракционе в сопровождении");
+        }else if (age >14){
+            System.out.println("Если возраст ребенка равен " + age + ", то ему без сопровождения взрослого");
+        }
+    }
+
 }
