@@ -6,6 +6,7 @@ public class Main {
         task4 ();
         task5 ();
         task6 ();
+        task7 ();
 
     }
     public static void task1 () {
@@ -76,6 +77,19 @@ public class Main {
             System.out.println("В вагоне осталось " + placeSeetingPlaces + " сидячих и " + standingRoom + " стоячих мест"  );
         }else if (passangersUplift > seetingRoom && passangersUplift <=totalRoom) {
             System.out.println("В вагоне осталось " + placeStandindPlaces + " стоячих мест");
+        }
+    }
+    public static void task7 () {
+        System.out.println("Задача 7");
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two && one > three) {
+            System.out.println("Наибольшее число: " + one);
+        } else if (two > one && two > three) {
+            System.out.println("Наибольшее число: " + two);
+        } else {
+            System.out.println("Наибольшее число: " + three);
         }
     }
 
